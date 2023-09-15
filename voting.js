@@ -8,15 +8,12 @@ function chooseStations(stations) {
       selectedStations.push(name);
     }
   }
-
   return selectedStations;
 }
-
 const stations = [
   ['Big Bear Donair', 10, 'restaurant'],
   ['Bright Lights Elementary', 50, 'school'],
   ['Moose Mountain Community Centre', 45, 'community centre']
 ];
-
-const result= chooseStations(stations);
+const result = chooseStations(stations);
 console.log(result);
