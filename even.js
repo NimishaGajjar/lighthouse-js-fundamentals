@@ -1,7 +1,8 @@
-const isEven = function (num) {
-  return num % 2 === 0;
+const even = function(num) {
+  if (num % 2 === 0) {
+    console.log("Even");
+  } else {
+    console.log("Odd");
+  }
 };
-
-console.log(isEven(10));
-console.log(isEven(11));
-
+even(16);
