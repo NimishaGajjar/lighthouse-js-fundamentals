@@ -7,14 +7,14 @@ const iceCreamFlavours = [
 ];
 
 //add a new flavour
-iceCreamFlavours.push("root beer");
+iceCreamFlavours.push("Root Beer")
 console.log(iceCreamFlavours);
 
 //get the first flavour
 console.log(iceCreamFlavours[0]);
 
 //get the last flavour
-console.log(iceCreamFlavours[iceCreamFlavours.length - 1]);
+console.log(iceCreamFlavours[5]);
 
 //get the total number of flavours
 console.log(iceCreamFlavours.length);
